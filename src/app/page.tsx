@@ -1,9 +1,8 @@
 import { Compass, FileText, Lightbulb, PenTool, TestTube } from "lucide-react";
 import Image from "next/image";
-import HeroImage from "/images/bg.png";
+import HeroImage from "/images/phone.png";
 import data from "./components/data";
 import { telecomAnalysisData, telecomTasks } from "./components/datas";
-import { File } from "lucide";
 
 export default function Home() {
   return (
@@ -137,7 +136,7 @@ export default function Home() {
             overview of the design thinking process:
           </p>
         </div>
-        <div className="flex items-center justify-center ">
+        <div className="flex items-center justify-center mt-[4rem] mb-[4rem] ">
           <div className=" flex flex-row  items-center justify-center ">
             <div className=" h-[7.25rem] w-[7.25rem] bg-[#e5f8dd] rounded-[50%] "></div>
             <div className=" border-[1px] border-[black] border-dashed w-[3rem] h-[0.01rem]  "></div>
@@ -184,6 +183,14 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+
+<section  className="bg-[#e5f8dd] h-[120vh] "  >
+
+  <div className=" w-[100%] h-[100%] bg-center bg-cover bg-no-repeat "  style={{ backgroundImage: "url('/images/phone.png')" }} > </div>
+
+</section>
+
     </main>
   );
 }
