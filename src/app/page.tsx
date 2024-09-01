@@ -6,6 +6,7 @@ import { telecomAnalysisData, telecomTasks } from "./components/datas";
 import SliderComponent from "./components/SliderComponent";
 import Persona from "./components/Persona";
 import EmpathyMap from "./components/EmpathyMap";
+import SecondPersona from "./components/SecondPersona";
 
 export default function Home() {
   return (
@@ -248,7 +249,7 @@ export default function Home() {
       </section>
 
       <section>
-        <Persona />
+        <SecondPersona />
         <Persona />
       </section>
 
