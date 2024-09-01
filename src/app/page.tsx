@@ -1,8 +1,10 @@
 import { Compass, FileText, Lightbulb, PenTool, TestTube } from "lucide-react";
 import Image from "next/image";
-import HeroImage from "/images/phone.png";
+import HeroImage from "/public/images/guy.jpeg";
 import data from "./components/data";
 import { telecomAnalysisData, telecomTasks } from "./components/datas";
+import SliderComponent from "./components/SliderComponent";
+import Persona from "./components/Persona";
 
 export default function Home() {
   return (
@@ -184,13 +186,19 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="bg-[#e5f8dd] h-[120vh] ">
+        <div
+          className=" w-[100%] h-[100%] bg-center bg-cover bg-no-repeat "
+          style={{ backgroundImage: "url('/images/phone.png')" }}
+        >
+          {" "}
+        </div>
+      </section>
 
-<section  className="bg-[#e5f8dd] h-[120vh] "  >
-
-  <div className=" w-[100%] h-[100%] bg-center bg-cover bg-no-repeat "  style={{ backgroundImage: "url('/images/phone.png')" }} > </div>
-
-</section>
-
+      <section>
+        <Persona />
+        <Persona />
+      </section>
     </main>
   );
 }
