@@ -1,5 +1,6 @@
 import { Ellipsis } from "lucide-react";
 import React from "react";
+import { Component } from "./components/Charts";
 
 const page = () => {
   return (
@@ -56,6 +57,19 @@ const page = () => {
 
             <div>Avatars</div>
           </div>
+        </div>
+      </div>
+
+      <div className="w-[100%] mt-[2rem] gap-[2rem]  ">
+        <div className=" w-[50%] ">
+          <Component />
+        </div>
+
+        <div className=" w-[50%]  p-[1rem]  ">
+
+
+
+
         </div>
       </div>
     </div>
