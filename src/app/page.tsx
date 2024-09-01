@@ -10,7 +10,7 @@ import SecondPersona from "./components/SecondPersona";
 
 export default function Home() {
   return (
-    <main className="flex flex-col ">
+    <main className="flex flex-col w-[100%] ">
       <section
         className=" h-[100vh] w-full bg-center bg-no-repeat bg-cover "
         style={{ backgroundImage: "url('/images/bg.png')" }}
